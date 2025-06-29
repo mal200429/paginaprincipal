@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Spotify Básico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <aside class="barra-lateral-izquierda">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Logo de Spotify">
+            </div>
+            <nav class="navegacion-principal">
+                <ul>
+                    <li><a href="index.html - 01.html"><i class="fas fa-home"></i> Pagina Principal</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="contenido-central">
+            <header class="encabezado-central">
+                <div class="perfil-usuario">
+                    <span>Melissa</span>
+                    <img src="imagenes/img.jpeg" alt="Foto de Perfil de Usuario" class="avatar-usuario">
+                </div>
+            </header>
+
+            <section class="reproductor-y-letras">
+                <div class="info-cancion-actual">
+                    <img src="imagenes/girl in red.jpg" alt="Portada de la Canción" id="portada-album-actual">
+                    <h2 id="titulo-cancion-actual">Forget Her </h2>
+                    <p id="nombre-artista-actual">Girl In Red</p>
+                      <audio controls id="reproductorDetalle">
+                        <source src="audio/girl in red - forget her.mp3" type="audio/mpeg">
+                </div>
+                <div class="contenedor-letras">
+                    <h3>Letra de la Canción</h3>
+                    <div id="contenido-letras">
+                        <p>Ah-ah, ah-ah
+I spend all my days
+Trying to forget her face
+She's so hard to erase
+I don't think she can be replaced
+She stole my heart and ran away
+Left me with some things to say
+I don't understand</p>
+                        <p>She stole my heart and ran away
+Left me with some things to say
+I don't understand</p>
+                        <p>I spend all my days
+Thinking of her embrace
+The way it slowly changed
+Some things will never fade</p>
+                        <p>She stole my heart and ran away
+Left me with some things to say
+I don't understand
+She stole my heart and ran away
+Left me with some things to say
+I don't understand</p>
+                        <p>¡Disfruta la experiencia!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside class="panel-derecho">
+            <section class="seccion-anuncios">
+                <h2>Anuncio Especial</h2>
+                <div class="banner-anuncio">
+                    <img src="imagenes/anuncio001.jpg" alt="Anuncio Lateral">
+                </div>
+                <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/002.jpg" alt="Otro Anuncio Lateral">
+                </div>
+                   <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/pizza.jpg" alt="Otro Anuncio Lateral">
+                </div>
+                   <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/Anuncios-Publicitarios-Nescafe.jpg" alt="Otro Anuncio Lateral">
+                </div>
+                   <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/Anuncios-publicitarios-creativos-originales.jpg" alt="Otro Anuncio Lateral">
+                </div>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>

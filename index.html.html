@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Spotify Básico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+
+        <aside class="barra-lateral-izquierda">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Logo de Spotify">
+            </div>
+            <nav class="navegacion-principal">
+                <ul>
+                    <li><a href="index.html - 01.html"><i class="fas fa-home"></i>Pagina principal</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="contenido-central">
+            <header class="encabezado-central">
+                <div class="perfil-usuario">
+                    <span>Melissa</span>
+                    <img src="imagenes/img.jpeg" alt="Foto de Perfil de Usuario" class="avatar-usuario">
+                </div>
+            </header>
+
+            <section class="reproductor-y-letras">
+                <div class="info-cancion-actual">
+                    <img src="imagenes/OIP.jpg" alt="Portada de la Canción" id="portada-album-actual">
+                    <h2 id="titulo-cancion-actual">i Love You</h2>
+                    <p id="nombre-artista-actual">Billie Eilish</p>
+                      <audio controls id="reproductorDetalle">
+                        <source src="audio/i love you-yt.savetube.me.mp3" type="audio/mpeg">
+                </div>
+                <div class="contenedor-letras">
+                    <h3>Letra de la Canción</h3>
+                    <div id="contenido-letras">
+                        <p>It's not true
+Tell me I've been lied to
+Crying isn't like you
+Ooh
+What the hell did I do?
+Never been the type to
+Let someone see right through
+Ooh, hm, hm
+Maybe won't you take it back?
+Say you were tryna make me laugh
+And nothing has to change today
+You didn't mean to say "I love you"</p>
+                        <p>I love you
+And I don't want to
+Ooh
+Up all night
+On another red-eye
+I wish we never learned to fly
+I
+Maybe we should just try
+To tell ourselves a good lie
+Didn't mean to make you cry
+I, hm-hm
+Maybe won't you take it back?
+Say you were tryna make me laugh
+And nothing has to change today
+You didn't mean to say "I love you"</p>
+                        <p>I love you
+And I don't want to
+Ooh
+The smile that you gave me
+Even when you felt like dying</p>
+                        <p>We fall apart as it gets dark
+I'm in your arms in Central Park
+There's nothing you could do or say
+I can't escape the way I love you
+I don't want to
+But I love you
+Ooh
+Ooh
+Ooh
+Ooh
+Ooh</p>
+                        <p>¡Disfruta la experiencia!</p>
+                    </div>
+            </section>
+        </main>
+        <aside class="panel-derecho">
+            <section class="seccion-anuncios">
+                <h2>Anuncio Especial</h2>
+                <div class="banner-anuncio">
+                    <img src="imagenes/elish.jpg" alt="Anuncio Lateral">
+                </div>
+                <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/vogue.jpg" alt="Otro Anuncio Lateral">
+                </div>
+                  <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/hit.jpg" alt="Otro Anuncio Lateral">
+                </div>
+                  <div class="banner-anuncio" style="margin-top: 20px;">
+                    <img src="imagenes/ll.png" alt="Otro Anuncio Lateral">
+                </div>
+            </section>
+        </aside>
+    </div>
+          <button class="boton-volver" onclick="history.back()">
+                    <i class="fas fa-chevron-left"></i> </button>
+</body>
+</html>
